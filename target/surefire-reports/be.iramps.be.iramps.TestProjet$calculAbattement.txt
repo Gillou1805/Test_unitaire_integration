@@ -1,8 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: be.iramps.be.iramps.TestProjet$calculAbattement
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in be.iramps.be.iramps.TestProjet$calculAbattement
-be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementEntreDeuxPositif -- Time elapsed: 0.002 s
-be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementInferieur350_000 -- Time elapsed: 0.008 s
-be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementEntreDeuxNegatif -- Time elapsed: 0.003 s
-be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementSuperieur500_000 -- Time elapsed: 0.002 s
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.038 s <<< FAILURE! -- in be.iramps.be.iramps.TestProjet$calculAbattement
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementEntreDeuxPositif -- Time elapsed: 0.006 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <38218.22> but was: <38218.21866666667>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:885)
+	at be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementEntreDeuxPositif(TestProjet.java:113)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementInferieur350_000 -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <40000.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:885)
+	at be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementInferieur350_000(TestProjet.java:95)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementEntreDeuxNegatif -- Time elapsed: 0.005 s
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementSuperieur500_000 -- Time elapsed: 0.001 s

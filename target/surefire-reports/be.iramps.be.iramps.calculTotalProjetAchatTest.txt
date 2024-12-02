@@ -1,9 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: be.iramps.be.iramps.calculTotalProjetAchatTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in be.iramps.be.iramps.calculTotalProjetAchatTest
-be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatFraisTransformationZero -- Time elapsed: 0.009 s
-be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursStandards -- Time elapsed: 0.014 s
-be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursCentimes -- Time elapsed: 0.008 s
-be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursNegatives -- Time elapsed: 0.006 s
-be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatExceptionCoutTotalNegatif -- Time elapsed: 0.004 s
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.171 s <<< FAILURE! -- in be.iramps.be.iramps.calculTotalProjetAchatTest
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatFraisTransformationZero -- Time elapsed: 0.014 s
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursStandards -- Time elapsed: 0.058 s
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursCentimes -- Time elapsed: 0.027 s
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursNegatives -- Time elapsed: 0.024 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)
+	at be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursNegatives(calculTotalProjetAchatTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatExceptionCoutTotalNegatif -- Time elapsed: 0.025 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)
+	at be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatExceptionCoutTotalNegatif(calculTotalProjetAchatTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
