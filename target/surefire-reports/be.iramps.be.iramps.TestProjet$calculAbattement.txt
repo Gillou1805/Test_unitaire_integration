@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: be.iramps.be.iramps.TestProjet$calculAbattement
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in be.iramps.be.iramps.TestProjet$calculAbattement
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementEntreDeuxPositif -- Time elapsed: 0.002 s
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementInferieur350_000 -- Time elapsed: 0.008 s
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementEntreDeuxNegatif -- Time elapsed: 0.003 s
+be.iramps.be.iramps.TestProjet$calculAbattement.calculAbattementSuperieur500_000 -- Time elapsed: 0.002 s

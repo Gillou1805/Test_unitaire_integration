@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: be.iramps.be.iramps.calculApportMinimalTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.522 s -- in be.iramps.be.iramps.calculApportMinimalTest
+be.iramps.be.iramps.calculApportMinimalTest.testCalculApportMinimalValeursDecimales -- Time elapsed: 0.139 s
+be.iramps.be.iramps.calculApportMinimalTest.testCalculApportMinimalFraisTransformationNegatifs -- Time elapsed: 0.019 s
+be.iramps.be.iramps.calculApportMinimalTest.testCalculApportMinimalFraisTransformationZero -- Time elapsed: 0.004 s
+be.iramps.be.iramps.calculApportMinimalTest.testCalculApportMinimalPrixHabitationNul -- Time elapsed: 0.005 s
+be.iramps.be.iramps.calculApportMinimalTest.testCalculApportMinimalAvecValeursStandardsEtElevees -- Time elapsed: 0.005 s
+be.iramps.be.iramps.calculApportMinimalTest.testCalculApportMinimalFraisNotaireNegatifs -- Time elapsed: 0.002 s

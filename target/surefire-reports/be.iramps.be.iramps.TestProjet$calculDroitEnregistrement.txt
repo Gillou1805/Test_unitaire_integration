@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: be.iramps.be.iramps.TestProjet$calculDroitEnregistrement
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in be.iramps.be.iramps.TestProjet$calculDroitEnregistrement
+be.iramps.be.iramps.TestProjet$calculDroitEnregistrement.calculDroitEnregistrementRevenuCadastralInferieur745 -- Time elapsed: 0.002 s

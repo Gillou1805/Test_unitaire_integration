@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: be.iramps.be.iramps.calculTVATest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in be.iramps.be.iramps.calculTVATest
+be.iramps.be.iramps.calculTVATest.calculTVAFraisTransformationSimple -- Time elapsed: 0.013 s

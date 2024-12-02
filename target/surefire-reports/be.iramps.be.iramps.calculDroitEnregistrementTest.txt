@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: be.iramps.be.iramps.calculDroitEnregistrementTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in be.iramps.be.iramps.calculDroitEnregistrementTest
+be.iramps.be.iramps.calculDroitEnregistrementTest.testCalculDroitEnregistrementValeursZero -- Time elapsed: 0.013 s
+be.iramps.be.iramps.calculDroitEnregistrementTest.testCalculDroitEnregistrementValeursDecimales -- Time elapsed: 0.010 s
+be.iramps.be.iramps.calculDroitEnregistrementTest.testCalculDroitEnregistrementCasLimites -- Time elapsed: 0.003 s
+be.iramps.be.iramps.calculDroitEnregistrementTest.testCalculDroitEnregistrementValeursInvalides -- Time elapsed: 0.004 s
+be.iramps.be.iramps.calculDroitEnregistrementTest.testCalculDroitEnregistrementCasNormaux -- Time elapsed: 0.003 s

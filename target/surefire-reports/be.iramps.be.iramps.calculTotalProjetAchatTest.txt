@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: be.iramps.be.iramps.calculTotalProjetAchatTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in be.iramps.be.iramps.calculTotalProjetAchatTest
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatFraisTransformationZero -- Time elapsed: 0.009 s
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursStandards -- Time elapsed: 0.014 s
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursCentimes -- Time elapsed: 0.008 s
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatValeursNegatives -- Time elapsed: 0.006 s
+be.iramps.be.iramps.calculTotalProjetAchatTest.testCalculTotalProjetAchatExceptionCoutTotalNegatif -- Time elapsed: 0.004 s
